@@ -24,11 +24,8 @@ Zestaw wtyczek do wykorzystania z ZAttachmentAttribute.
 %prep
 %setup -q -n %{zope_subname}
 
-%build
-
 %install
 rm -rf $RPM_BUILD_ROOT
-
 install -d $RPM_BUILD_ROOT%{_datadir}/%{name}
 
 cp -af Audio Autocad Extensions HTML Image \
