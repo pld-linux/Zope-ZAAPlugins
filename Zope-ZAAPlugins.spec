@@ -1,6 +1,6 @@
 %define		zope_subname	ZAAPlugins
 Summary:	A set of plugins for use with ZAttachmentAttribute
-Summary(pl):	Zestaw wtyczek do wykorzystania z ZAttachmentAttribute
+Summary(pl.UTF-8):   Zestaw wtyczek do wykorzystania z ZAttachmentAttribute
 Name:		Zope-%{zope_subname}
 Version:	2.3
 Release:	1
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 A set of plugins for use with ZAttachmentAttribute.
 
-%description -l pl
+%description -l pl.UTF-8
 Zestaw wtyczek do wykorzystania z ZAttachmentAttribute.
 
 %prep
